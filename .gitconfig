@@ -1,0 +1,67 @@
+[User]
+
+        name = Andy Hampton
+
+	email = alhampt@gmail.com
+
+[color]
+
+        #Use default terminal colors
+
+        ui = auto
+
+[alias]
+
+        co = checkout
+
+        #Use external diff tool
+
+        d = difftool
+
+        #One line logs with commit files listed
+
+        l = log --oneline --name-status
+
+        #One line logs of commits by relative checkin and committer
+
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+        #List all branches
+
+        ls = branch -a
+
+        #List all changed files, including untracked files
+
+        s = status -s -u
+
+[core]
+
+        excludesfile = /Users/ahampt/.gitignore
+
+        #Set vim as default text editor
+
+        editor = vim
+
+        autocrlf = input
+
+[diff]
+
+        #Set vimdiff as default diff tool
+
+        tool = vimdiff
+
+[log]
+
+        #Use local time
+
+        date = local
+
+[merge]
+
+        #Use vimdiff for merges. TODO: change to splice
+
+        tool = vimdiff
+
+[push]
+
+        default = current

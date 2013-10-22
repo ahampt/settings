@@ -1,0 +1,14 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Clipboard History",
+		"Emmet",
+		"Git",
+		"JsMinifier",
+		"Package Control",
+		"SFTP",
+		"SublimeCodeIntel",
+		"Tag"
+	]
+}
